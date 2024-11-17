@@ -1,9 +1,10 @@
 # Calvin Nguyen, can005@ucsd.edu
 ## B01, Ali Arsanjani
-1. **What is the most interesting topic covered in your domain this quarter?**
+1. **What is the most interesting topic covered in your domain this quarter?** \ 
 The most interesting topic we covered during this quarter is generative AI and seeing how it works under the hood. It's really cool how to optimize prompts through different techniques like FCoT and how to integrate between predictive and generative AI. 
-2. **Describe a potential investigation you would like to pursue for your Quarter 2 Project.**
-
-3. **What is a potential change you’d make to the approach taken in your current Quarter 1 Project?**
-
-4. **What other techniques would you be interested in using in your project?**
+2. **Describe a potential investigation you would like to pursue for your Quarter 2 Project.** \
+I would love to pursue how to integrate more different types of factuality factors and microfactors in the future. For example, right now, we are simply using microfactors that does not require other sources, such as emotionality or sensationality. However, this means we can't integrate factuality factors like NodeRank where we need to explore where an article is linked to. However, Dr. Arsanjani recently introduced us to Google Search APIs, which could prove useful for the task. Additionally, I would actually like to properly assess the model and how it grades veracity on different articles. Right now, we are simply experimenting with Generative AI, but are not grading on how the model is doing.
+3. **What is a potential change you’d make to the approach taken in your current Quarter 1 Project?** \
+One potential change I'd make is to implement function calling into the generative AI. Right now, if a model wants to judge the emotionality of an article, it would do it within the generative AI. I think we would get better results if we used a specialized model, called on by the generative AI, to judge emotionality. 
+4. **What other techniques would you be interested in using in your project?** \
+I would like to use more different types of machine learning models in our project. For examples, utilizing transformers could be useful because we are dealing with text. 
